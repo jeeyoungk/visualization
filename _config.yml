@@ -1,0 +1,12 @@
+# Site settings
+title: Algorithms Visualized
+email: jeeyoungk@gmail.com
+description: "Visualizing algorithms that I think are cool."
+baseurl: ""
+url: "http://jeeyoungk.github.io/visualization"
+twitter_username: jeeyoungk
+github_username:  jeeyoungk
+
+# Build settings
+markdown: kramdown
+permalink: pretty
