@@ -8,6 +8,8 @@ DIMENSION = {
 }
 
 withCounter = (callback, interval=1000/60) ->
+  # Run a given logic in an interval, with counter incrementing per iteration.
+  # By default, 60 FPS.
   counter = 0
   wrapped = ->
     callback(counter)
