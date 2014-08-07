@@ -129,4 +129,4 @@ runWithModification = (modification) ->
     window.clearInterval previousInterval
   rerender()
   previousInterval = common.withCounter intervalCallback, delay
-
+window.oneByOne()
